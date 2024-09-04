@@ -25,7 +25,7 @@ function missingElem(arr){
         }
         else if(arr[i] !== arr[i - 1] + 1){
             console.log("Missing Element: " , value + 1, "At Index: ", i);
-            i++
+            i++;
         }
     }
 }

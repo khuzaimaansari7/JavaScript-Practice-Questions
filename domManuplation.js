@@ -7,9 +7,13 @@ const body = document.body;
 
 // body.append(div)
 
-div = document.querySelector('div')
+const div = document.querySelector('div')
 
 console.log(div.textContent);
 console.log(div.innerText);
 
 console.log(div.setAttribute("id", "div-1"))
+
+document.getElementById('Hello').addEventListener('click', function() {
+    alert('Button clicked!');
+});
